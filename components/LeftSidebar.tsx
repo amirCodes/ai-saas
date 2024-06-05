@@ -17,7 +17,7 @@ export default function LeftSidbar() {
 
   return (
     <section className="left_sidebar">
-      <nav className="flex flex-col gap-6">
+      <nav className="flex flex-col gap-6 min-hscreen">
         <Link
           href="/"
           className="flex cursor-pointer items-center gap-1 pb-10 max-lg:justify-center"
