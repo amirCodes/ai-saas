@@ -15,7 +15,7 @@ export default function Home() {
       <section className="flex flex-col gap-5">
         <h1 className="text-20 font-bold text-white-1">Trending Podcasts</h1>
         <div className="flex  flex-row items-center justify-between p-2">
-          {tasks?.map(({ _id, text }) => <div key={_id}>{text}</div>)}
+          {tasks?.map(({ _id, text }:any) => <div key={_id}>{text}</div>)}
         </div>
         <div className="podcast_grid">
           {podcastData.map(({ id, title, description, imgURL }: any) => (
